@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+           <!-- Wrapper -->
+
+           <div class="flex flex-col w-[100vw] h-[100vh] gap-10 bg-[#344151] items-center justify-center">
+
+            <div class="text-[#0398d4] font-medium text-[20px]">Incremenet and Decrement</div>
+
+            <div class="bg-white flex text-[25px] text-[#34415] rounded-sm gap-12 p-3 px-5">
+
+                <!-- Negitive Button-->
+                <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] pr-5">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+
+                <div id="counter" class="font-bold">
+                    0
+                </div>
+
+                <!-- Positive Button-->
+                
+                <button onclick="increment()" class="border-l-2 border-[#bfbfbf] pl-5">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+               
+                
+            </div> 
+            <button onclick="reset()" class="bg-white flex w-[230px] justify-center items-center h-[30px] font-bold tracking-widest">
+                Reset
+            </button>
+           </div>
+       
+        <script src="index.js"></script>
+</body>
+</html>
